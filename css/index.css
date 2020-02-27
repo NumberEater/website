@@ -1,0 +1,14 @@
+#emailIn {
+    margin:15px;
+}
+#passIn {
+    margin: 15px;
+}
+#submit {
+    margin: 15px;
+}
+.title h1 {
+    font-family: sans-serif;
+    color: red;
+    -webkit-text-stroke: 2px black;
+}
