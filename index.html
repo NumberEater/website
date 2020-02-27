@@ -6,16 +6,28 @@
 </head>
 <body>
     <center>
-        
-        <span class="title"><h1>ADMINISTRATOR LOGIN</h1></span>
-        <div>
-        <span id="emailIn"><input type="email" name="emailInput" placeholder="Username" /></span>
-        <br />
-        <span id="passIn"><input type="password" name="passwordInput" placeholder="Password" /></span>
-        </div>
-        <div>
-            <span id="submit"><input type="submit" name="submitButton" /></span>
-        </div>
+        <form name="login">
+            <span class="title"><h1>ADMINISTRATOR LOGIN</h1></span>
+            <div>
+                <span id="emailIn"><input type="text" name="emailInput" placeholder="Username" /></span>
+                <br />
+                <span id="passIn"><input type="password" name="passwordInput" placeholder="Password" /></span>
+            </div>
+            <div>
+
+                <span id="submit"><input type="button" value="Submit" onclick="check(this.form)" /></span>
+            </div>
+        </form>
     </center>
+    <script language="javascript">
+        function check(form) {
+            if(form.emailInput.value == "admin" && form.passwordInput.value == ")a77}W-4<MP]") {
+                window.open("./adminPage.html", "_self")
+            }
+            else {
+                alert("INVALID USERNAME OR PASSWORD!")
+            }
+        }
+    </script>
 </body>
 </html>
