@@ -1,8 +1,27 @@
+#mgstocks {
+	  font-family: sans-serif;
+	  font-size: 2.5em;
+	  
+  }
 body {
     margin: 0;
     padding: 0;
     background: #444343;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   #loginDiv {
 	  font-family: sans-serif;
   }
@@ -51,3 +70,35 @@ body {
   #adminPage {
 	  font-family: sans-serif;
   }
+  
+  
+  
+  .button {
+    display: inline-block;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #bdbdbd;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	margin: 20px;
+	
+}
+
+.button:hover,
+.button:focus {
+    background: #999999;
+}
+
+.button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
