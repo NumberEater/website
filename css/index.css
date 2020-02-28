@@ -3,6 +3,9 @@ body {
     padding: 0;
     background: #444343;
   }
+  #loginDiv {
+	  font-family: sans-serif;
+  }
   header {
     background: #333;
     height: 70px;
@@ -44,4 +47,7 @@ body {
   footer {
     height: 100px;
     width: auto;
+  }
+  #adminPage {
+	  font-family: sans-serif;
   }
