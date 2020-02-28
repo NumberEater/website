@@ -5,6 +5,7 @@
     <link href="../css/index.css" rel="stylesheet" />
 </head>
 <body>    
+	
     <header>
         <h1 id="title">Login</h1>
         <nav>
@@ -16,17 +17,21 @@
             </ul>
         </nav>
     </header>
-    <form name="login">
-        <span class="title"><h1>ADMINISTRATOR LOGIN</h1></span>
-        <div>
-            <span id="emailIn"><input type="text" name="emailInput" placeholder="Username" /></span>
-            <br />
-            <span id="passIn"><input type="password" name="passwordInput" placeholder="Password" /></span>
-        </div>
-        <div>
+	<div id="loginDiv">
+		<form name="login">
+		<center>
+			<span class="title"><h1>ADMINISTRATOR LOGIN</h1></span>
+			<div>
+				<span id="emailIn"><input type="text" name="emailInput" placeholder="Username" /></span>
+				<br />
+				<span id="passIn"><input type="password" name="passwordInput" placeholder="Password" /></span>
+			</div>
+			<div>
 
-            <span id="submit"><input type="button" value="Submit" onclick="check(this.form)" /></span>
-        </div>
+				<span id="submit"><input type="button" value="Submit" onclick="check(this.form)" /></span>
+			</div>
+		</center>
+	</div>
     </form>
 
 
